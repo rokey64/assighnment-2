@@ -203,7 +203,7 @@ a{
 
 
 /* CSS for Responsive */
-@media (min-width:480px){
+/* @media (min-width:480px){
     .banner-container{
         justify-content: start;
         flex-direction: column;
@@ -220,5 +220,5 @@ a{
     .botton-banner-details{
         margin-left: 15px;
     }
-    }
+    } */
     
