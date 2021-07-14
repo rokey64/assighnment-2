@@ -203,22 +203,5 @@ a{
 
 
 /* CSS for Responsive */
-/* @media (min-width:480px){
-    .banner-container{
-        justify-content: start;
-        flex-direction: column;
-    }
-    .banner-details{
-        margin-left: 15px;
-    }
-    .players{
-        grid-template-rows: repeat(1fr);
-    }
-    .bottom-container{
-        grid-template-rows: repeat(2, 1fr);
-    }
-    .botton-banner-details{
-        margin-left: 15px;
-    }
-    } */
+
     
