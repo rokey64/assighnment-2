@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap');
+/* Start Common Css */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* Stat Banner Section */
+.banner-section{
+    background-color: #2D25A0;
+}
+.banner-section:hover .banner-details{
+    transform: scale(1.1);
+    transition: transform  1s ease-in;
+}
+.banner-details{
+    margin-left: 156px;
+    margin-top: 86px;
+    margin-right: 70px;
+}
+.banner-tittle{
+    font-size: 60px;
+    Line-height: 80px;
+    width: 485px;
+    height: 230px;
+    color: white;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+}
+.banner-image{
+    width: 556.01px;
+    height: 438px;
+    margin-right: 90px;
+    margin-top: 135px;
+}
+.banner-image img{
+    width: 100%;
+}
+.banner-button a{
+    background-color: #E02C6D;
+    border: 1px solid #E02C6D;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 30px 0px;
+    margin-top: 44px;
+    padding: 10px 24px
+}
+.banner-button .fas{
+    margin-left: 8px;
+}
+/* End Banner Section */
+/* Start Player Section */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 30px;
+    align-self: center;
+    margin: 70px 210px;
+}
+.player{
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border-radius: 5px;
+}
+.player img{
+    width: 100%;
+}
+.player h3{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 10px 0;
+}
+ p{
+    font-size: 16px;
+    columns: #6C6C6C;
+    margin: 10px 0;
+    padding-bottom: 30px;
+}
+.bottom-container{
+    margin-top: 165px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.bottom-banner-tittle{
+    font-size: 48px;
+    margin: 8px 0px;
+    Line-height: 1.3em;
+    width: 485px;
+    color: black;
+}
+.botton-banner-details{
+    width: 496px;
+    height: 309px;
+    margin-left: 97px;
+    margin-right: 54px;
+}
+.bottom-banner-image{
+    width: 567px;
+    height: 427px;
+    margin-right: 50px;
+}
+.bottom-banner-image img{
+    width: 90%;
+    
+}
+
+/* End Player Section */
+
+
+
+#blog-section{
+    padding-bottom: 100px;
+    margin: 0 5%;
+}
+.blog-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    color: #707070;
+    margin: 30px 0px;
+}
+.blog-post{
+    display: flex;
+    margin-top: 50px;
+}
+.post{
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.post img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.post-link{
+    text-decoration: none;
+    color:#2D25A0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.post-pera{
+    padding-bottom: 20px;
+}
+.continue{
+    border-radius: 100px;
+    background: rgb(240, 236, 236);
+    padding: 10px 30px;
+}
+/* End Blog section */
+
+/*Start Highlights Section */
+.highlights-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    color: #707070;
+    margin: 30px 0px;
+}
+.youtube-video{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+/*End Highlights Section */
+/* Strat Footer Section */
+.footer-container{
+    width: 483.87px;
+    height: 213px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: auto;
+   padding-top: 100px;
+}
+.logo{
+   
+}
+.logo img{
+    width: 80%;
+}
+.social-icon img{
+    width: 32px;
+}
+/* End Footer Section */
+
+
+/* CSS for Responsive */
+@media (min-width:480px){
+    .banner-container{
+        justify-content: start;
+        flex-direction: column;
+    }
+    .banner-details{
+        margin-left: 15px;
+    }
+    .players{
+        grid-template-rows: repeat(1fr);
+    }
+    .bottom-container{
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .botton-banner-details{
+        margin-left: 15px;
+    }
+    }
+    
